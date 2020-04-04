@@ -1,0 +1,56 @@
+####################################################
+# GetPageSpeed.com extras repository configuration #
+####################################################
+[getpagespeed-extras]
+name=GetPageSpeed packages for Enterprise Linux 7 - $basearch
+baseurl=https://extras.getpagespeed.com/redhat/7/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-GETPAGESPEED
+repo_gpgcheck=0
+module_hotfixes=1
+
+[getpagespeed-extras-noarch]
+name=GetPageSpeed packages for Enterprise Linux 7 - noarch
+baseurl=https://extras.getpagespeed.com/redhat/7/noarch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-GETPAGESPEED
+repo_gpgcheck=0
+module_hotfixes=1
+
+[getpagespeed-extras-varnish60]
+name=GetPageSpeed packages of Varnish 6 LTS for Enterprise Linux 7 - $basearch
+baseurl=https://extras.getpagespeed.com/redhat/7/varnish60/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-GETPAGESPEED
+repo_gpgcheck=0
+module_hotfixes=1
+
+[getpagespeed-extras-nginx-mod]
+name=GetPageSpeed packages with patched NGINX for Enterprise Linux 7
+baseurl=https://extras.getpagespeed.com/redhat/7/nginx-mod/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-GETPAGESPEED
+repo_gpgcheck=0
+module_hotfixes=1
+
+[getpagespeed-extras-mainline]
+name=GetPageSpeed packages of mainline NGINX for Enterprise Linux 7 - $basearch
+baseurl=https://extras.getpagespeed.com/redhat/7/mainline/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-GETPAGESPEED
+repo_gpgcheck=0
+module_hotfixes=1
+
+[getpagespeed-extras-cmake-latest]
+name=GetPageSpeed packages of latest cmake for Enterprise Linux 7 - $basearch
+baseurl=https://extras.getpagespeed.com/redhat/7/cmake-latest/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-GETPAGESPEED
+repo_gpgcheck=0
+module_hotfixes=1
